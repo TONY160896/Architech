@@ -1,0 +1,337 @@
+:root{
+    color: black;
+}
+a{
+    color: black;
+}
+a.home {
+  font-size: 22px;
+  color: black;
+  display: flex;
+  /* padding: 15px; */
+  letter-spacing: 4px;
+  margin-left: -40px;
+  text-decoration: none;
+  background-color: white;
+  width: max-content;
+  margin-top: 8px;
+}
+
+.home:hover{
+  background-color: rgb(194, 182, 182);
+  color: black;
+}
+
+b{
+    margin-right: 9px;
+    
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -46px;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+li a:hover{
+    background-color: rgb(194, 182, 182);
+    color: rgb(0, 0, 0);
+}
+
+.main {
+    max-width: 100%;
+    background-size: cover;
+    margin-top: -17px;
+}
+.homediv {
+  background-image: url(img/architect.jpg);
+  padding-bottom: 180px;
+  background-size: cover;
+  margin-top: -16px;
+}
+.textmain {
+  max-width: max-content;
+  margin: auto;
+  max-height: fit-content;
+  display: flex;
+  padding-top: 200px;
+}
+span.brs {
+  text-align: center;
+  background-color: black;
+  padding: 7px;
+  color: white;
+  padding-left: 12px;
+  opacity: 0.6;
+}
+.architest {
+  font-size: 38px;
+  margin-left: 18px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-top: -17px;
+  
+}
+.projectstext {
+  padding-top: 56px;
+  font-size: 34px;
+  font-weight: 400;
+  padding-bottom: 39px;
+}
+.summerhouse {
+  background-image: url(img/house5.jpg);
+  padding-bottom: 291px;
+  background-size: cover;
+  width: 100%;
+}
+.summerhousediv {
+  background-color: black;
+  color: white;
+  width: 182px;
+  height: 53px;
+  position: absolute;
+}
+h4.summertext {
+  font-weight: 400;
+  padding: 10px;
+}
+.brickhouse {
+  background-image: url(img/house2\ \(1\).jpg);
+  padding-bottom: 291px;
+  background-size: cover;
+  width: 100%;
+}
+h4.bricktext {
+  font-weight: 400;
+  padding: 10px;
+}
+.Renovatedtext{
+
+  font-weight: 400;
+  padding: 10px;
+
+}
+.Renovatedhouse {
+  background-image: url(img/house3.jpg);
+  padding-bottom: 291px;
+  background-size: cover;
+  width: 100%;
+}
+.BarnHouse{
+  background-image: url(img/house4\ \(1\).jpg);
+  padding-bottom: 291px;
+  background-size: cover;
+  width: 100%;
+}
+.row.house {
+  margin-top: 23px;
+}
+.summerhouse1{
+  background-image: url(img/house2\ \(1\).jpg);
+  padding-bottom: 291px;
+  background-size: cover;
+  width: 100%;
+}
+.brickhouse1{
+  background-image: url(img/house5.jpg);
+  padding-bottom: 291px;
+  background-size: cover;
+  width: 100%;
+  
+}
+.about {
+  font-size: 34px;
+  font-weight: 400;
+  margin-top: 42px;
+}
+p.aboutpara {
+  margin-top: 17px;
+  font-size: 20px;
+}
+a.btn.btn-primary {
+  /* width: -webkit-fill-available; */
+  border-radius: 0;
+  display: block;
+  color: #000!important;
+    background-color: #f1f1f1!important;
+    border-color: transparent;
+
+}
+.card-title {
+  
+  font-size: 23px;
+}
+p.card-text {
+  font-size: 15px;
+  letter-spacing: 0px;
+}
+.card {
+  border-radius: 0px;
+}
+img.card-img-top {
+  border-radius: 0px;
+}
+div#about {
+  filter: grayscale(77%);
+}
+.Contact
+{
+  font-size: 34px;
+  font-weight: 400;
+  margin-top: 42px;
+
+}
+.contactpara
+{
+  margin-top: 17px;
+  font-size: 20px;
+}
+input.form {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 13px;
+  font-size: 19px;
+  height: 45px;
+}
+button.formbutton {
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  width: 171px;
+  height: 44px;
+  padding: 11px;
+}
+.map {
+  max-width: 941px;
+  margin-top: 37px;
+}
+.tony{
+  background-color: black;
+}
+h1.bottomtext {
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  font-weight: 200;
+  padding: 16px;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 992px) {
+
+    a.home {
+        color: black;
+        text-decoration: none;
+        /* text-align: center; */
+        display: flex;
+        /* justify-content: flex-start; */
+        padding: 15px;
+        letter-spacing: 4px;
+        margin-left: 0px;
+    }
+    .home:hover{
+        background-color:none;
+        color: black;
+      }
+ 
+      ul {
+       
+        display: none;
+       
+      }
+    
+      p.architest {
+        display: none;
+    }
+    .textmain {
+      padding-top: 52px;
+  }
+  .homediv {
+    padding-bottom: 41px;
+    background-size: cover;
+}
+.summerhouse {
+  background-size: cover;
+  /* object-fit: cover; */
+  padding-bottom: 149px;
+}
+.summerhouse1 {
+  background-size: cover;
+  /* object-fit: cover; */
+  padding-bottom: 149px;
+  margin-top: 26px;
+}
+.brickhouse {
+  background-image: url(img/house2\ \(1\).jpg);
+  padding-bottom: 149px;
+  background-size: cover;
+  width: 100%;
+  margin-top: 23px;
+}
+.brickhouse1 {
+  padding-bottom: 149px;
+  background-size: cover;
+  width: 100%;
+  margin-top: 23px;
+}
+.Renovatedhouse {
+  background-image: url(img/house3.jpg);
+  padding-bottom: 149px;
+  background-size: cover;
+  width: 100%;
+  margin-top: 23px;
+}
+.BarnHouse{
+  background-image: url(img/house4\ \(1\).jpg);
+  padding-bottom: 149px;
+  background-size: cover;
+  width: 100%;
+  margin-top: 23px;
+}
+.row.house {
+  margin-top: 0px;
+}
+p.aboutpara {
+  font-size: 11px;
+}
+h3.about {
+  margin-top: 17px;
+}
+.card {
+  margin-bottom: 20px;
+}
+.Contact {
+  margin-top: 28px;
+  font-size: 27px;
+  padding-bottom: 9px;
+}
+.contactpara {
+  font-size: 14px;
+}
+button.formbutton {
+  margin-top: 17px;
+}
+.map {
+  max-width: 211px;
+  margin-top: 16px;
+}
+
+}
